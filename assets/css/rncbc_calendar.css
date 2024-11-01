@@ -1,0 +1,155 @@
+.yui3-widget-loading { display:none; }
+.rncbc-timeslots, .rncbc-calendar-timeslots, .rncbc-coaching-people {
+
+	padding-top: 10px;
+}
+.rncbc-timeslots .slot {
+	display: inline-block;
+	padding: 3px 6px;
+	margin: 0px 10px 10px 0px;
+	border-radius: 2px;
+	font-size: 12px;
+	border: 1px solid #DCDCDC;
+	color: #3C3C3C;
+	background: #FFF;
+	cursor: pointer;
+}
+
+.rncbc-timeslots .slot.on {
+	color: #F40;
+	padding: 2px 6px;
+	border: 2px solid #F40;
+	background: #FFF;
+}
+.rncbc-timeslots .slot.disable {
+	color: #DEDEDE;
+	border: 1px solid #DEDEDE;
+	background: #FFF;
+	cursor: not-allowed;
+}
+.rncbc-calendar-timeslots .item {
+	display: inline-block;
+	padding: 5px 0px 5px 10px;
+	margin: 0px 10px 10px 0px;
+	background-color: #21c245;
+	color: #fff;
+	border-radius: 2px;
+	font-size: 12px;
+}
+.rncbc-calendar-timeslots .item a {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	border-left: 1px solid #fff;
+	padding:0px 8px;
+	margin-left: 5px;
+}
+.yui3-button.notice {
+	background-color: #1B7AE0;
+	color: white;
+}
+.yui3-skin-sam .yui3-calendar-weekday{
+	text-align: center;
+}
+.yui3-skin-sam .yui3-calendar-day.activity_date {
+	background: #fcfb07;
+}
+.yui3-skin-sam .yui3-calendar-selection-disabled, .yui3-skin-sam .yui3-calendar-selection-disabled:hover {
+	background: #ccc !important;
+}
+.rncbc_field {
+	padding-bottom: 10px;
+}
+.rncbc_field label {
+	display: block;
+	margin-bottom: 10px;
+}
+.rncbc_field_inline label{
+	display: inline-block;
+}
+.rncbc_field label em {
+	color: #ff1c44;
+	font-style: normal;
+}
+.rncbc_status {
+	padding: 20px 0px;
+}
+.rncbc_status span {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle
+}
+.rncbc_status .u span {
+	background: #ccc;
+	border: 1px solid #ccc;
+}
+.rncbc_status .c span {
+	background: #fcfb07;
+	border: 1px solid #fcfb07;
+}
+.rncbc_status .c {
+	color: #00A34C;
+	margin-left: 20px;
+}
+.rncbc_status .u {
+	color: #b8090b;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+.rncbc_status .a {
+	color: #00B800;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+.rncbc_status label.a {
+	margin-left: 20px;
+}
+.rncbc_status .a span {
+	background: #fff;
+	border: 1px solid #ccc;
+}
+.rncbc_table {
+	margin-top: 10px;
+	border: 1px solid #ededed;
+	width: 100%;
+}
+.rncbc_table tr {
+	height: 30px;
+	border: 1px solid #ededed;
+}
+.rncbc_table td, .rncbc_table th {
+	text-align: center;
+	border: 1px solid #ededed;
+}
+.rncbc_table td.a {
+	background: #fff;
+	cursor: pointer;
+}
+.rncbc_table td.u {
+	background: #ccc;
+	color: #ccc;
+}
+.rncbc_table td.booked {
+	color: #757575;
+}
+
+.rncbc_table td.coaching {
+	background: #fcfb07;
+	color: #00A34C;
+	cursor: pointer;
+}
+.rncbc_table td.coaching.full {
+	cursor: default;
+	color: #cdcdcd;
+}
+.rncbc_table_wrap .loading {
+	line-height: 100px;
+	text-align: center;
+	font-size: 20px;
+}
+.rncbc_field.coaching-title {
+	padding-top: 40px;
+}

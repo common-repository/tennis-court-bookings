@@ -1,0 +1,322 @@
+# Copyright (C) 2020 renoirIII
+# This file is distributed under the same license as the Tennis Court Bookings plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tennis Court Bookings 1.1.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tennis-court-bookings\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-09-17T03:27:11+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: rncbc\n"
+
+#. Plugin Name of the plugin
+#: rn_booking_calendar.php:41
+msgid "Tennis Court Bookings"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://www.ezihosting.com/tennis-court-bookings/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Tennis Court Bookings come in 4 modules ranging from our free lite version to a comprehensive tennis court booking, coaching and payment system."
+msgstr ""
+
+#. Author of the plugin
+msgid "renoirIII"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.ezihosting.com.au/"
+msgstr ""
+
+#: libs/ajax.php:94
+msgid "Sorry, This day is closed."
+msgstr ""
+
+#: libs/ajax.php:154
+msgid "Sorry, the court has been booked."
+msgstr ""
+
+#: libs/ajax.php:209
+msgid "Success! Thanks for your booking."
+msgstr ""
+
+#: libs/shortcodes.php:82
+msgid "Un-available"
+msgstr ""
+
+#: libs/shortcodes.php:83
+msgid "Available"
+msgstr ""
+
+#: libs/shortcodes.php:86
+#: libs/shortcodes.php:172
+msgid "Activity"
+msgstr ""
+
+#: libs/shortcodes.php:96
+msgid "Please pick an available day"
+msgstr ""
+
+#: libs/shortcodes.php:107
+msgid "Court"
+msgstr ""
+
+#: libs/shortcodes.php:111
+msgid "From"
+msgstr ""
+
+#: libs/shortcodes.php:115
+msgid "To"
+msgstr ""
+
+#: libs/shortcodes.php:121
+msgid "Members"
+msgstr ""
+
+#: libs/shortcodes.php:127
+#: libs/shortcodes.php:188
+msgid "Total"
+msgstr ""
+
+#: libs/shortcodes.php:132
+#: libs/shortcodes.php:193
+msgid "Name"
+msgstr ""
+
+#: libs/shortcodes.php:136
+#: libs/shortcodes.php:197
+msgid "Email"
+msgstr ""
+
+#: libs/shortcodes.php:140
+#: libs/shortcodes.php:201
+msgid "Phone number"
+msgstr ""
+
+#: libs/shortcodes.php:145
+#: libs/shortcodes.php:206
+msgid "Comment"
+msgstr ""
+
+#: libs/shortcodes.php:149
+#: libs/shortcodes.php:210
+msgid "Booking & Pay"
+msgstr ""
+
+#: libs/shortcodes.php:149
+#: libs/shortcodes.php:210
+msgid "Booking Now"
+msgstr ""
+
+#: libs/shortcodes.php:168
+#: views/calendar_form.php:40
+#: views/calendar_form.php:43
+msgid "Title"
+msgstr ""
+
+#: libs/shortcodes.php:177
+msgid "Detail"
+msgstr ""
+
+#: libs/shortcodes.php:182
+msgid "Trainees"
+msgstr ""
+
+#: rn_booking_calendar.php:43
+msgid "Settings"
+msgstr ""
+
+#: rn_booking_calendar.php:44
+msgid "Calendars"
+msgstr ""
+
+#: rn_booking_calendar.php:45
+msgid "Coaching"
+msgstr ""
+
+#: rn_booking_calendar.php:46
+#: views/go_pro.php:2
+msgid "Go Pro"
+msgstr ""
+
+#: views/calendars.php:2
+msgid "Court Booking Calendars"
+msgstr ""
+
+#: views/calendars.php:7
+msgid "Create new calender"
+msgstr ""
+
+#: views/calendar_court.php:2
+msgid "Courts"
+msgstr ""
+
+#: views/calendar_court.php:11
+#: views/calendar_court.php:30
+msgid "Court name"
+msgstr ""
+
+#: views/calendar_court.php:15
+#: views/calendar_court.php:16
+msgid "Price (per time-slot)"
+msgstr ""
+
+#: views/calendar_court.php:19
+msgid "Member Price"
+msgstr ""
+
+#: views/calendar_court.php:20
+#: views/calendar_court.php:36
+msgid "Member Price (per time-slot)"
+msgstr ""
+
+#: views/calendar_court.php:24
+msgid "Create"
+msgstr ""
+
+#: views/calendar_court.php:33
+msgid "Price (pre time-slot)"
+msgstr ""
+
+#: views/calendar_court.php:39
+msgid "Update"
+msgstr ""
+
+#: views/calendar_court.php:40
+msgid "Delete"
+msgstr ""
+
+#: views/calendar_court.php:47
+#: views/calendar_reservation.php:7
+msgid "Back to calendars"
+msgstr ""
+
+#: views/calendar_form.php:44
+msgid "Calendar name, this will also be send to customer's email."
+msgstr ""
+
+#: views/calendar_form.php:50
+msgid "Opening"
+msgstr ""
+
+#: views/calendar_form.php:74
+msgid "Closing"
+msgstr ""
+
+#: views/calendar_form.php:98
+#: views/calendar_form.php:101
+msgid "Working Day"
+msgstr ""
+
+#: views/calendar_form.php:120
+msgid "Holiday"
+msgstr ""
+
+#: views/calendar_form.php:128
+msgid "Public holidays or other days that bookings are not accepted."
+msgstr ""
+
+#: views/calendar_form.php:136
+msgid "Booking window closed time"
+msgstr ""
+
+#: views/calendar_form.php:140
+msgid "Set the number of minutes before the booking are not accept, default is 2 hours. PS. 1 hour = 60 minutes, 1 day = 1440 minutes"
+msgstr ""
+
+#: views/calendar_form.php:146
+msgid "Minimum available date"
+msgstr ""
+
+#: views/calendar_form.php:150
+msgid "Default is today, a formatted date string, eg.."
+msgstr ""
+
+#: views/calendar_form.php:156
+msgid "Maximum available date"
+msgstr ""
+
+#: views/calendar_form.php:160
+msgid "Default is unlimited, +n means n days after today"
+msgstr ""
+
+#: views/calendar_form.php:166
+msgid "Time slot"
+msgstr ""
+
+#: views/calendar_form.php:182
+msgid "Step size"
+msgstr ""
+
+#: views/calendar_form.php:191
+msgid "The booking time slots equals Time slot * Step size."
+msgstr ""
+
+#: views/calendar_form.php:198
+msgid "Success tip"
+msgstr ""
+
+#: views/calendar_form.php:202
+msgid "The booking success pop-up message."
+msgstr ""
+
+#: views/calendar_reservation.php:2
+msgid "Reservations"
+msgstr ""
+
+#: views/go_pro.php:12
+msgid "License key"
+msgstr ""
+
+#: views/go_pro.php:17
+msgid "Our Tennis court bookings Lite plugin is there for you to try it out."
+msgstr ""
+
+#: views/go_pro.php:19
+msgid "There will be an annoying message in your booking page encouraging you to Go Pro. Going Pro will get rid of this message and activates 12 months support and free updates."
+msgstr ""
+
+#: views/go_pro.php:24
+msgid "Your License key is validated. Thank you for your purchase!"
+msgstr ""
+
+#: views/setting.php:2
+msgid "Court Booking Calender Settings"
+msgstr ""
+
+#: views/setting.php:22
+msgid "Confirmation to customer"
+msgstr ""
+
+#: views/setting.php:29
+#: views/setting.php:31
+#: views/setting.php:43
+#: views/setting.php:45
+#: views/setting.php:70
+#: views/setting.php:85
+#: views/setting.php:87
+msgid "Subject"
+msgstr ""
+
+#: views/setting.php:35
+#: views/setting.php:49
+#: views/setting.php:76
+#: views/setting.php:91
+msgid "Body"
+msgstr ""
+
+#: views/setting.php:57
+msgid "Notification to admin"
+msgstr ""
+
+#: views/setting.php:63
+#: views/setting.php:65
+msgid "Email address"
+msgstr ""
